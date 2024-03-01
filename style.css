@@ -24,24 +24,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 118px;
 }
 
 .container1 {
+  font-family: monospace;
   display: grid;
   justify-content: center;
   align-items: center;
   width: 600px;
   height: 500px;
   background: transparent;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(3px);
   border: 2px solid #0066ff;
   border-radius: 15px;
   padding: 15px;
 }
 
 h1 {
-  font-size: 39px;
+  font-size: 48px;
   color: #0066ff;
   margin: 0px;
 }
@@ -62,8 +63,7 @@ button {
   font-size: 35px;
   border: 2px solid #0066ff;
   border-radius: 10px;
-  background: transparent;
-  backdrop-filter: blur(5px);
+  background-color: #0e345e;
   color: #0066ff;
   margin: 0px;
 }
@@ -122,8 +122,7 @@ h3 {
   font-size: 30px;
   border: 2px solid #0066ff;
   border-radius: 10px;
-  background: transparent;
-  backdrop-filter: blur(5px);
+  background-color: #0e345e;
   color: #0066ff;
   margin-top: 7px;
 }
@@ -131,4 +130,10 @@ h3 {
 .blabla:hover {
   backdrop-filter: blur(50px);
   height: 48px;
+}
+
+.beta {
+  font-family: monospace;
+  color: red;
+  margin-top: 80px;
 }

