@@ -16,7 +16,7 @@
   height: 80px;
   background: transparent;
   backdrop-filter: blur(2px);
-  border: 2px solid #b600ff;
+  border: 2px solid #0066ff;
   border-radius: 10px;
 }
 
@@ -35,20 +35,20 @@
   height: 500px;
   background: transparent;
   backdrop-filter: blur(2px);
-  border: 2px solid #b600ff;
+  border: 2px solid #0066ff;
   border-radius: 15px;
   padding: 15px;
 }
 
 h1 {
   font-size: 39px;
-  color: #b600ff;
+  color: #0066ff;
   margin: 0px;
 }
 
 h2 {
   font-size: 33px;
-  color: #b600ff;
+  color: #0066ff;
   margin: 0px;
 }
 
@@ -60,11 +60,11 @@ button {
   width: 476px;
   height: 50px;
   font-size: 35px;
-  border: 2px solid #b600ff;
+  border: 2px solid #0066ff;
   border-radius: 10px;
   background: transparent;
   backdrop-filter: blur(5px);
-  color: #b600ff;
+  color: #0066ff;
   margin: 0px;
 }
 
@@ -80,7 +80,7 @@ button:hover {
 }
 
 h3 {
-  color: #b600ff;
+  color: #0066ff;
   font-size: 30px;
   margin: 0px;
 }
@@ -90,9 +90,9 @@ h3 {
   height: 40px;
   background: transparent;
   backdrop-filter: blur(10px);
-  border: 2px solid #b600ff;
+  border: 2px solid #0066ff;
   border-radius: 10px;
-  color: #b600ff;
+  color: #0066ff;
 }
 
 .inputfield1 {
@@ -101,9 +101,9 @@ h3 {
   height: 40px;
   background: transparent;
   backdrop-filter: blur(10px);
-  border: 2px solid #b600ff;
+  border: 2px solid #0066ff;
   border-radius: 10px;
-  color: #b600ff;
+  color: #0066ff;
 }
 
 .inputfield:hover {
@@ -120,11 +120,11 @@ h3 {
   width: 476px;
   height: 45px;
   font-size: 30px;
-  border: 2px solid #b600ff;
+  border: 2px solid #0066ff;
   border-radius: 10px;
   background: transparent;
   backdrop-filter: blur(5px);
-  color: #b600ff;
+  color: #0066ff;
   margin-top: 7px;
 }
 
