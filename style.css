@@ -12,8 +12,8 @@
 }
 
 .AternosLogo {
-  width: 500px;
-  height: 100px;
+  width: 400px;
+  height: 80px;
   background: transparent;
   backdrop-filter: blur(2px);
   border: 2px solid #b600ff;
@@ -37,10 +37,11 @@
   backdrop-filter: blur(2px);
   border: 2px solid #b600ff;
   border-radius: 15px;
+  padding: 15px;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 39px;
   color: #b600ff;
   margin: 0px;
 }
@@ -52,11 +53,11 @@ h2 {
 }
 
 .container2 {
-  display: flex;
+  display: grid;
 }
 
 button {
-  width: 475px;
+  width: 476px;
   height: 50px;
   font-size: 35px;
   border: 2px solid #b600ff;
@@ -69,6 +70,65 @@ button {
 
 button:hover {
   backdrop-filter: blur(50px);
-  width: 110%;
-  height: 110%;
+  height: 55px;
+}
+
+.container3 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  color: #b600ff;
+  font-size: 30px;
+  margin: 0px;
+}
+
+.inputfield {
+  width: 470px;
+  height: 40px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border: 2px solid #b600ff;
+  border-radius: 10px;
+  color: #b600ff;
+}
+
+.inputfield1 {
+  margin-top: 7px;
+  width: 470px;
+  height: 40px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border: 2px solid #b600ff;
+  border-radius: 10px;
+  color: #b600ff;
+}
+
+.inputfield:hover {
+  height: 43px;
+  backdrop-filter: blur(50px);
+}
+
+.inputfield1:hover {
+  height: 43px;
+  backdrop-filter: blur(50px);
+}
+
+.blabla {
+  width: 476px;
+  height: 45px;
+  font-size: 30px;
+  border: 2px solid #b600ff;
+  border-radius: 10px;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  color: #b600ff;
+  margin-top: 7px;
+}
+
+.blabla:hover {
+  backdrop-filter: blur(50px);
+  height: 48px;
 }
